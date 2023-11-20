@@ -1,7 +1,4 @@
-passage com. example. cameraapp
-import android. content. Intent import android. graphios. Camera import android. os. Bundle 
-import android. provider. Mediastore import android. widget. Button import androidx.activity.ComponentActivity
-class MainActivity : ComponentActivity() {
-override fun onCreate(savedInstanceState: Bundle?)
-super. onCreate(savedInstanceState)
-setContentView (R. Layout. Layout)
+val openCameraButton: Button = findViewById(R.id.openCameraButton)
+openCameraButton.setOnClickListenerf it View!
+val camerIntent = Intent(Mediastore.ACTION_IMAGE_CAPTURÈ)
+startActivity(camerIntent)
